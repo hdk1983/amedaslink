@@ -20,7 +20,7 @@ BEGIN{
     }
     if(prev_chiho!=chiho){
 	prev_chiho=chiho;
-	outtoc=outtoc"-- ["chiho"](#"chiho")\n";
+	outtoc=outtoc"\t- ["chiho"](#"chiho")\n";
 	outmain=outmain "## "chiho"\n";
     }
     chimei=$3;
